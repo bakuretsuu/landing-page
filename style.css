@@ -2,7 +2,7 @@
 background-color: #1F2937;
 }
 
-.header{
+.header,.footer{
     display: flex;
     align-items: center;
     justify-content: space-between;  
@@ -25,6 +25,7 @@ background-color: #1F2937;
 
 ul{
     list-style-type: none;
+    padding: 0;
     
 }
 
@@ -33,3 +34,42 @@ a{
     text-decoration: none;
     font-size: 18px;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.left{
+    padding-left: 100px;
+}
+.image{
+  
+}
+
+
+
+
+
+
+
+.content {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+
+}
+
+
+
