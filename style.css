@@ -61,16 +61,19 @@ a{
    
 }
 
-
 .image{
   display: flex;
   padding: 75px 200px 75px 200px;
-  
-  background-color: #e5e7eb;
-  
-  
-}
 
+  background-color: #e5e7eb; 
+}
+.bottom .title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 50px;
+}
 
 
 
@@ -84,12 +87,14 @@ a{
 .title{
     font-size: 48px;
     color: #f9faf8;
-    font-weight: 900;
-
+    font-weight: 900
 }
 button{
     background-color: #3882f6;
     width: 100px;
 }
+
+    
+
 
 
