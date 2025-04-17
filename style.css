@@ -156,6 +156,8 @@ button{
     height: 25px;
     border-radius: 5px; 
     border-color: #e5e7eb;
+    border-style: solid;
+    border-width: thin;
 }
 .box{
     border-radius: 10px;
